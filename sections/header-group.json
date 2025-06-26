@@ -17,13 +17,29 @@
         "message": {
           "type": "message",
           "settings": {
-            "text": "Announce something here",
+            "text": "30 JOURS SATISFAIT OU REMBOURSÉ",
+            "url": ""
+          }
+        },
+        "message_fawraK": {
+          "type": "message",
+          "settings": {
+            "text": "LIVRAISON GRATUITE EN 48H",
+            "url": ""
+          }
+        },
+        "message_bcQDCU": {
+          "type": "message",
+          "settings": {
+            "text": "TOUTES LES SAVEURS DES KITS DOUBLÉES LORS DE LA PRÉPARATION",
             "url": ""
           }
         }
       },
       "block_order": [
-        "message"
+        "message",
+        "message_fawraK",
+        "message_bcQDCU"
       ],
       "settings": {
         "enable_sticky": false,
