@@ -11,10 +11,50 @@
   "sections": {
     "main": {
       "type": "main-page",
-      "settings": {}
+      "disabled": true,
+      "settings": {
+        "content_width": "80ch"
+      }
+    },
+    "media_with_text_MzizRm": {
+      "type": "media-with-text",
+      "blocks": {
+        "image_EmaAyF": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/321.webp",
+            "media_width": 55,
+            "media_position": "start",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Qui sommes-nous ?",
+            "content": "<p>Chez <strong>BREEZ</strong>, nous sommes une équipe déterminée à vous accompagner dans votre démarche pour <strong>arrêter de fumer</strong>. Nous croyons fermement qu'il est possible de se libérer de la nicotine de manière naturelle, efficace et durable, sans nuire à votre santé ni à l’environnement.</p><p><strong>Notre mission est simple :</strong> vous fournir des <strong>solutions</strong> innovantes pour vous aider à surmonter la dépendance au tabac, tout en respectant <strong>votre bien-être </strong>et celui de la planète. Grâce à des produits <strong>naturels</strong>, sans nicotine ni toxines, nous vous offrons une alternative plus saine, tout en contribuant à un avenir plus vert.</p><p>Nous avons également à cœur de créer <strong>une communauté </strong>solidaire autour de ce projet. <strong>BREEZ</strong>, c’est bien plus qu’un produit : c’est <strong>un accompagnement, </strong>une entraide et un engagement collectif pour vous aider à arrêter de fumer et à vivre une vie plus sereine et plus saine.</p><p><strong>Rejoignez-nous</strong>, faites partie de notre <strong>famille</strong> grandissante !</p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#fff",
+            "background_gradient": "",
+            "text_color": "#1a1a1a",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_EmaAyF"
+      ],
+      "name": "Media with text",
+      "settings": {
+        "full_width": true,
+        "alternate_media_position": false,
+        "spacing": "small"
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "media_with_text_MzizRm"
   ]
 }
