@@ -67,41 +67,77 @@
         "overlay_opacity": 0
       }
     },
-    "images_with_text_scrolling_UM39n9": {
-      "type": "images-with-text-scrolling",
+    "media_with_text_48w4AB": {
+      "type": "media-with-text",
       "blocks": {
-        "item_hGCUin": {
-          "type": "item",
+        "image_wawqm8": {
+          "type": "image",
           "settings": {
             "image": "shopify://shop_images/dsdf.png",
+            "media_width": 50,
+            "media_position": "start",
+            "text_position": "place-self-end-start text-start",
             "icon": "none",
-            "icon_width": 56,
+            "icon_width": 48,
+            "subheading": "",
             "title": "Qu’est-ce que BREEZ ?",
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
+            "content": "<p>BREEZ est <strong>un inhalateur d'huiles essentielles, </strong>une alternative innovante <strong>à la cigarette </strong>traditionnelle et la <strong>vapotte</strong>, conçu pour vous offrir une expérience <strong>saine et apaisante</strong>.</p><p>Sans combustion, sans nicotine et sans toxines, il fonctionne avec<strong> des recharges à base d’huiles essentielles naturelles et d’air purifié.</strong></p><p>L'inhalateur BREEZ allie simplicité et bien-être, vous permettant de <strong>rompre avec les habitudes nocives pour la santé</strong> tout en profitant d’un moment de relaxation, où que vous soyez, quand vous le souhaitez</p>",
+            "link_text": "JE COMMANDE",
+            "link_url": "",
+            "background": "#fff",
+            "background_gradient": "",
+            "text_color": "#1a1a1a",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
           }
         }
       },
       "block_order": [
-        "item_hGCUin"
+        "image_wawqm8"
       ],
-      "name": "Images and text scrolling",
+      "name": "Media with text",
+      "settings": {
+        "full_width": false,
+        "alternate_media_position": false,
+        "spacing": "small"
+      }
+    },
+    "image_with_text_overlay_ncjNXc": {
+      "type": "image-with-text-overlay",
+      "name": "Image with text overlay",
       "settings": {
         "full_width": true,
-        "stack_on_mobile": true,
-        "show_counter": false,
-        "desktop_image_effect": "reveal",
-        "image_position": "start",
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify://shop_images/855254.png",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
+    "custom_html_YeH3H8": {
+      "type": "custom-html",
+      "name": "Custom HTML",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": true,
+        "remove_horizontal_spacing": false,
+        "html": "<div id=\"shopify-section-template--24965229805900__testimonials_cK3xnm\" class=\"shopify-section\">\n\n<div class=\"reviews-section\">\n  + DE 1800 CLIENTS SATISFAITS ✨\n  <p>Ils ont relevé notre défi, pourquoi pas vous ? 🏆📖</p>\n  <div class=\"reviews-container\">\n    <!-- Flèche gauche -->\n    <button class=\"carousel-arrow left-arrow\" aria-label=\"Défiler à gauche\">←</button>\n\n    <div class=\"carousel\">\n      <!-- 8 Témoignages -->\n      <div class=\"review-card\"><img class=\"review-photo\" src=\"https://cdn.shopify.com/s/files/1/0926/2104/6143/files/79875.png?v=1750973119\" alt=\"Client satisfait 1\"></div>\n      <div class=\"review-card\"><img class=\"review-photo\" src=\"https://cdn.shopify.com/s/files/1/0926/2104/6143/files/45668.png?v=1750973119\" alt=\"Client satisfait 2\"></div>\n      <div class=\"review-card\"><img class=\"review-photo\" src=\"https://cdn.shopify.com/s/files/1/0926/2104/6143/files/45225.png?v=1750973119\" alt=\"Client satisfait 3\"></div>\n      <div class=\"review-card\"><img class=\"review-photo\" src=\"https://cdn.shopify.com/s/files/1/0926/2104/6143/files/48664.png?v=1750973119\" alt=\"Client satisfait 4\"></div>\n      <div class=\"review-card\"><img class=\"review-photo\" src=\"https://cdn.shopify.com/s/files/1/0926/2104/6143/files/9854.png?v=1750973119\" alt=\"Client satisfait 5\"></div>\n      <div class=\"review-card\"><img class=\"review-photo\" src=\"https://cdn.shopify.com/s/files/1/0794/2206/2924/files/4_5fb71e1b-2b94-488d-9a9e-34adb10f2401.png?v=1745342857\" alt=\"Client satisfait 6\"></div>\n      <div class=\"review-card\"><img class=\"review-photo\" src=\"https://cdn.shopify.com/s/files/1/0794/2206/2924/files/6.png?v=1745342857\" alt=\"Client satisfait 7\"></div>\n      <div class=\"review-card\"><img class=\"review-photo\" src=\"https://cdn.shopify.com/s/files/1/0794/2206/2924/files/8.png?v=1745343292\" alt=\"Client satisfait 8\"></div>\n      <div class=\"review-card\"><img class=\"review-photo\" src=\"https://cdn.shopify.com/s/files/1/0794/2206/2924/files/ihg.png?v=1745343475\" alt=\"Client satisfait 9\"></div>\n      <div class=\"review-card\"><img class=\"review-photo\" src=\"https://cdn.shopify.com/s/files/1/0794/2206/2924/files/2_b7e873ac-4342-438a-81e0-66040bbd7fc7.png?v=1745342857\" alt=\"Client satisfait 10\"></div>      \n      </div>\n\n    <!-- Flèche droite -->\n    <button class=\"carousel-arrow right-arrow\" aria-label=\"Défiler à droite\">→</button>\n  </div>\n\n  <!-- Barre de progression -->\n  <div class=\"carousel-progress-bar\">\n    <div class=\"progress\" style=\"width: 12.5%;\"></div>\n  </div>\n</div>\n\n<style>\n  .reviews-section {\n    max-width: 1200px;\n    margin: 50px auto;\n    text-align: center;\n    font-family: Arial, sans-serif;\n    position: relative;\n    overflow: hidden;\n  }\n\n  /* TITRES */\n  .reviews-section h2 {\n    font-size: 28px;\n    font-weight: bold;\n    margin-bottom: 10px;\n  }\n  .reviews-section p {\n    font-size: 16px;\n    color: #555;\n    margin-bottom: 30px;\n  }\n\n  /* CAROUSEL CONTAINER */\n  .reviews-container {\n    position: relative;\n    display: flex;\n    align-items: center;\n    justify-content: center;\n    overflow: hidden;\n  }\n\n  /* BOUTONS DE NAVIGATION */\n  .carousel-arrow {\n    position: absolute;\n    top: 50%;\n    transform: translateY(-50%);\n    background-color: rgba(0, 0, 0, 0.5);\n    color: white;\n    border: none;\n    border-radius: 50%;\n    width: 40px;\n    height: 40px;\n    font-size: 20px;\n    cursor: pointer;\n    z-index: 10;\n  }\n  .left-arrow {\n    left: 10px;\n  }\n  .right-arrow {\n    right: 10px;\n  }\n\n  /* CAROUSEL SLIDER */\n  .carousel {\n    display: flex;\n    gap: 20px;\n    overflow-x: scroll;\n    scroll-behavior: smooth;\n    scroll-snap-type: x mandatory;\n  }\n  .carousel::-webkit-scrollbar {\n    display: none; /* Cache la barre de défilement */\n  }\n\n  /* REVIEW CARD */\n  .review-card {\n    flex: 0 0 calc(100% / 3); /* 3 images visibles en grand écran */\n    max-width: 300px;\n    background-color: #fff;\n    border-radius: 8px;\n    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);\n    overflow: hidden;\n    text-align: center;\n    scroll-snap-align: start;\n  }\n\n  .review-photo {\n    width: 100%;\n    height: auto;\n    display: block;\n  }\n\n  /* BARRE DE PROGRESSION */\n  .carousel-progress-bar {\n    width: 80%;\n    margin: 20px auto;\n    background-color: #e0e0e0;\n    height: 4px;\n    border-radius: 5px;\n    position: relative;\n  }\n  .carousel-progress-bar .progress {\n    width: 0%;\n    height: 100%;\n    background-color: #555;\n    border-radius: 5px;\n    transition: width 0.5s ease-in-out;\n  }\n\n  /* RESPONSIVE DESIGN */\n  @media (min-width: 768px) {\n    .review-card {\n      flex: 0 0 calc(33.33% - 20px);\n    }\n  }\n</style>\n\n<script>\n  document.addEventListener(\"DOMContentLoaded\", function () {\n    const carousel = document.querySelector(\".carousel\");\n    const progressBar = document.querySelector(\".carousel-progress-bar .progress\");\n    const leftArrow = document.querySelector(\".left-arrow\");\n    const rightArrow = document.querySelector(\".right-arrow\");\n\n    const totalSlides = 8;\n    const slidesVisible = 3; // Nombre de photos visibles sur écran large\n    let currentSlide = 0;\n\n    function updateProgress() {\n      const progress = ((currentSlide + 1) / totalSlides) * 100;\n      progressBar.style.width = `${progress}%`;\n    }\n\n    function updateCarousel() {\n      const slideWidth = carousel.offsetWidth / slidesVisible;\n      const scrollAmount = slideWidth * currentSlide;\n\n      carousel.scrollTo({ left: scrollAmount, behavior: \"smooth\" });\n      updateProgress();\n    }\n\n    leftArrow.addEventListener(\"click\", () => {\n      if (currentSlide > 0) {\n        currentSlide--;\n        updateCarousel();\n      }\n    });\n\n    rightArrow.addEventListener(\"click\", () => {\n      if (currentSlide < totalSlides - slidesVisible) {\n        currentSlide++;\n        updateCarousel();\n      }\n    });\n\n    // Détecte le défilement manuel\n    carousel.addEventListener(\"scroll\", () => {\n      const slideWidth = carousel.offsetWidth / slidesVisible;\n      currentSlide = Math.round(carousel.scrollLeft / slideWidth);\n      updateProgress();\n    });\n\n    // Initialisation de la progression\n    updateProgress();\n  });\n</script>\n</div>",
         "background": "",
         "background_gradient": "",
-        "text_color": "",
-        "heading_color": "",
-        "heading_gradient": ""
+        "text_color": ""
       }
     }
   },
   "order": [
     "slideshow",
     "image_with_text_overlay_yAFBwM",
-    "images_with_text_scrolling_UM39n9"
+    "media_with_text_48w4AB",
+    "image_with_text_overlay_ncjNXc",
+    "custom_html_YeH3H8"
   ]
 }
