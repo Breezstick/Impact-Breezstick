@@ -11,10 +11,105 @@
   "sections": {
     "main": {
       "type": "main-page",
-      "settings": {}
+      "settings": {
+        "content_width": "60ch"
+      }
+    },
+    "media_with_text_WnfLDV": {
+      "type": "media-with-text",
+      "blocks": {
+        "image_A9tKVf": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/1.webp",
+            "media_width": 50,
+            "media_position": "start",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Des huiles essentielles de qualité, pour votre sécurité et votre bien-être",
+            "content": "<p>Nos huiles essentielles sont <strong>élaborées avec le plus grand soin</strong> dans nos ateliers, dans le respect de normes <strong>d’hygiène strictes.</strong> Chaque produit fait l’objet de tests rigoureux réalisés par nos professionnels, vous garantissant des huiles sûres pour votre santé et idéales pour votre <strong>bien-être.</strong></p><p>Nous soumettons également nos huiles à des <strong>analyses approfondies en laboratoire</strong>, afin d’assurer une qualité irréprochable. Chaque étape de leur fabrication est soigneusement contrôlée pour vous offrir des produits <strong>fiables et parfaitement adaptés à vos besoins.</strong></p><p>En plus de leur goût raffiné, nos huiles apportent de nombreux bienfaits thérapeutiques :</p><ul><li><strong>Un boost d’énergie et de vitalité</strong></li><li><strong>Une relaxation profonde et une réduction du stress</strong></li><li><strong>Une concentration améliorée</strong></li></ul><p>Avec BREEZ, découvrez des huiles essentielles sûres, efficaces et conçues pour votre bien-être. 🌿</p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#fff",
+            "background_gradient": "",
+            "text_color": "#1a1a1a",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        },
+        "image_JgRbA3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/2.webp",
+            "media_width": 50,
+            "media_position": "end",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Étude clinique du Dr. Alexandre Moreau sur l'impact de BREEZ sur la santé des fumeurs",
+            "content": "<p><strong>Objectif :</strong><br/>L'objectif de cette étude était d'évaluer l'efficacité du produit BREEZ en tant qu'alternative pour les fumeurs souhaitant réduire leur consommation de tabac et améliorer leur santé.</p><p><strong>Méthodologie :</strong><br/>Une étude a été réalisée sur un groupe de 100 fumeurs adultes, répartis sur une période de 4 semaines. Les participants ont été invités à remplacer leurs cigarettes traditionnelles par le produit BREEZ, tout en continuant leur suivi médical hebdomadaire. Des tests de santé ont été effectués avant et après l'utilisation de BREEZ, comprenant des évaluations de la fonction pulmonaire, des niveaux de stress, de l'énergie, et de la qualité du sommeil.</p><p><strong>Résultats :</strong><br/>Les résultats de l'étude ont montré des améliorations notables dès les premières semaines d'utilisation. Parmi les participants, 98% ont présenté des améliorations significatives de leur santé, incluant :</p><ul><li>Une réduction des symptômes respiratoires (toux, essoufflement) observée dès la première semaine.</li><li>Une baisse du stress et de l'anxiété, rapportée par les patients dans leurs évaluations subjectives.</li><li>Un regain d'énergie et une meilleure qualité de sommeil au cours des premières semaines d'utilisation.</li></ul><p><strong>Conclusion :</strong><br/>Les résultats de cette étude suggèrent que BREEZ est une solution efficace et bénéfique pour les fumeurs souhaitant réduire leur consommation de tabac et améliorer leur bien-être général. 98% des participants ont observé des améliorations notables sur leur santé, dès les premières semaines d'utilisation. Ce produit offre une alternative prometteuse aux méthodes traditionnelles de sevrage tabagique.</p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#fff",
+            "background_gradient": "",
+            "text_color": "#1a1a1a",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_A9tKVf",
+        "image_JgRbA3"
+      ],
+      "name": "Media with text",
+      "settings": {
+        "full_width": false,
+        "alternate_media_position": false,
+        "spacing": "small"
+      }
+    },
+    "image_with_text_overlay_eVYQB9": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "button_pLVg34": {
+          "type": "button",
+          "settings": {
+            "style": "fill",
+            "size": "lg",
+            "text": "JE COMMANDE",
+            "url": "",
+            "background": "",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "button_pLVg34"
+      ],
+      "name": "Image with text overlay",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify://shop_images/3.webp",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "media_with_text_WnfLDV",
+    "image_with_text_overlay_eVYQB9"
   ]
 }
